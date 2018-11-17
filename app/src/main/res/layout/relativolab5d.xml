@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/kumal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:text="kumal"
+        android:layout_toLeftOf="@id/ben"
+        />
+
+    <TextView
+        android:id="@+id/ben"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:text="Ben"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/layla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:text="layla" />
+
+    <TextView
+        android:id="@+id/jennie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="jennie" />
+
+    <TextView
+        android:id="@+id/omaju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="omagu"
+
+        android:layout_above="@id/jennie"
+        />
+</RelativeLayout>

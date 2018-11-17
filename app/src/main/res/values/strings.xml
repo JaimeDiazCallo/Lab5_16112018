@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Lab5</string>
+    <string name="n1">Peble Beache</string>
+    <string name="n2">California</string>
+    <string name="n3">10 miles away</string>
 </resources>
